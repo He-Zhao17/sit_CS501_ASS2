@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class A3_3 {
     public static void main (String[] args) {
+        System.out.println("This tool is to get the solution of some equations " +
+                "with Crammer rule.");
         System.out.println("If the equation you want to get the answer of is like" +
                 "as follows: ");
         System.out.println("ax + by = e");
         System.out.println("cx + dy = f\n\n");
-        System.out.print("Enter a, b, c, d, e, f: ");
+        System.out.print("Enter a, b, c, d, e, f (input number separated by spaces): ");
         Scanner scan = new Scanner(System.in);
         double[] k = new double[6];
         for (int i = 0; i < 6; i++) {
